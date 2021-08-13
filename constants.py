@@ -1,0 +1,14 @@
+WINDOW_SIZE = (800, 600)
+FRAMERATE = 120
+CYAN_BR = (139, 109, 166)
+GRASS_BL = (52, 235, 52)
+PLAYER1 = "E:\\Cursed Kingdom I\\cursedkingdom1\\resource\\player1.jpg"
+STONE_BL = (116, 122, 122)
+SAND_BL = (255, 255, 168)
+WATER_BL = (36, 36, 255)
+RED_CL = (252, 19, 3)
+WOOD_BL = (32, 36, 26)
+LEAF_BL = (69, 112, 8)
+BLOCK_SIZE = 50
+MAX_RUNNING_VEL = 2
+MAX_FALLING_VEL = 6
