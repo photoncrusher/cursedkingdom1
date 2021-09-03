@@ -1,5 +1,5 @@
 from constants import *
-from block import GrassBlock, StoneBlock, SandBlock, WaterBlock, WoodBlock, LeafBlock
+from block import BedrockBlock, GrassBlock, StoneBlock, SandBlock, WaterBlock, WoodBlock, LeafBlock
 from perlin import Perlin
 
 
@@ -54,6 +54,9 @@ class Map:
             for i in range(top, finish):
                 tmp = StoneBlock(x_temp*BLOCK_SIZE, i*BLOCK_SIZE)
                 block_list.append(tmp)
+        for i in range(finish, finish+5):
+            tmp = BedrockBlock(x_temp*BLOCK_SIZE, i*BLOCK_SIZE)
+            block_list.append(tmp)
         # else:
         #     for i in range(finish - 5, finish):
         #         tmp = StoneBlock(x_temp*BLOCK_SIZE, i*BLOCK_SIZE)
